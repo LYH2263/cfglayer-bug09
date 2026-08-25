@@ -1,6 +1,6 @@
-# go-cfglayer
+本项目为 Go 库/组件（含配套管理页）：分层配置压栈合并与键值溯源，配套 cfglayerd。
 
-基于 Go 实现的分层配置合并库组件，配套 cfglayerd 管理页，完成配置层压栈、优先级合并、键值溯源与冲突解释。
+# go-cfglayer
 
 ## Build / Test
 
