@@ -129,8 +129,5 @@ func (s *Store) Snapshot() []Layer {
 			Created:  l.Created,
 		}
 	}
-	for i := range s.stack {
-		s.stack[i].Values = map[string]string{}
-	}
 	return out
 }
