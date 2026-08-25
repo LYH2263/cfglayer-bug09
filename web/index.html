@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <title>cfglayer 层栈台</title>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <header>
+    <h1>cfglayer 配置层栈</h1>
+    <p id="health"></p>
+  </header>
+  <section class="panels">
+    <div class="panel">
+      <h2>层栈（底→顶）</h2>
+      <button id="refresh">刷新</button>
+      <button id="pop">弹出顶层</button>
+      <ol id="layers"></ol>
+    </div>
+    <div class="panel">
+      <h2>合并预览</h2>
+      <button id="merge">合并栈</button>
+      <pre id="merged"></pre>
+    </div>
+    <div class="panel">
+      <h2>键溯源</h2>
+      <input id="keyInput" placeholder="输入键名"/>
+      <button id="explain">Explain</button>
+      <pre id="explainOut"></pre>
+    </div>
+  </section>
+  <script src="/static/app.js"></script>
+</body>
+</html>
